@@ -1,5 +1,5 @@
 {
-  "name": "@evoprompt/core",
+  "name": "evoprompt-core",
   "version": "1.0.0",
   "description": "Core genetic algorithm engine for prompt evolution",
   "type": "module",

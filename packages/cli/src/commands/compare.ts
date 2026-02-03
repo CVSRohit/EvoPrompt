@@ -2,7 +2,7 @@
  * Compare command - test a prompt across multiple models
  */
 
-import { PromptEvolver } from '@evoprompt/core';
+import { PromptEvolver } from 'evoprompt-core';
 import ora from 'ora';
 import chalk from 'chalk';
 import Table from 'cli-table3';

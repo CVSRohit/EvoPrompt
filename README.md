@@ -64,26 +64,37 @@ Optimized Prompt (up to 25% better)
 
 ## 📦 Installation
 
-> **Note:** npm package publishing in progress. For now, install from source.
+### NPM (Recommended)
 
-### From Source (Recommended)
+```bash
+# Global installation (CLI tool)
+npm install -g evoprompt
+
+# Or use directly with npx
+npx evoprompt swarm "Your prompt here"
+```
+
+### As a Library
+
+```bash
+npm install evoprompt-core
+```
+
+```typescript
+import { PromptEvolver, SwarmTester } from 'evoprompt-core';
+
+// Use in your TypeScript/JavaScript projects
+```
+
+### From Source
 
 ```bash
 git clone https://github.com/CVSRohit/EvoPrompt.git
 cd EvoPrompt
 npm install
 npm run build
-
-# Link globally to use 'evoprompt' command
 cd packages/cli
 npm link
-```
-
-### NPM (Coming Soon)
-
-```bash
-# Will be available soon:
-npm install -g evoprompt
 ```
 
 ---

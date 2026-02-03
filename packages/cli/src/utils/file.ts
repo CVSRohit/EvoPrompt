@@ -3,7 +3,7 @@
  */
 
 import { writeFile } from 'fs/promises';
-import type { EvolutionResult } from '@evoprompt/core';
+import type { EvolutionResult } from 'evoprompt-core';
 
 export async function saveResults(result: EvolutionResult, filepath: string): Promise<void> {
   const data = {

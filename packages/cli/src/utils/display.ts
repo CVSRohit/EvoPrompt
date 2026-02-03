@@ -4,7 +4,7 @@
 
 import chalk from 'chalk';
 import Table from 'cli-table3';
-import type { GenerationStats, EvolutionResult } from '@evoprompt/core';
+import type { GenerationStats, EvolutionResult } from 'evoprompt-core';
 
 export function renderEvolutionProgress(stats: GenerationStats): string {
   const gen = stats.generation.toString().padStart(3, '0');

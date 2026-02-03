@@ -2,12 +2,12 @@
  * Optimize command - evolve a prompt using genetic algorithms
  */
 
-import { PromptEvolver } from '@evoprompt/core';
+import { PromptEvolver } from 'evoprompt-core';
 import ora from 'ora';
 import chalk from 'chalk';
 import { renderEvolutionProgress, renderFinalResults } from '../utils/display.js';
 import { saveResults } from '../utils/file.js';
-import type { GenerationStats } from '@evoprompt/core';
+import type { GenerationStats } from 'evoprompt-core';
 
 interface OptimizeOptions {
   models: string[];

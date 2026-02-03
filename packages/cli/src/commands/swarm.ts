@@ -2,7 +2,7 @@
  * Swarm command - parallel prompt testing with multiple variants and models
  */
 
-import { SwarmTester, FREE_MODELS, type PromptVariant } from '@evoprompt/core';
+import { SwarmTester, FREE_MODELS, type PromptVariant } from 'evoprompt-core';
 import ora from 'ora';
 import chalk from 'chalk';
 import Table from 'cli-table3';
