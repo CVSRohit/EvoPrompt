@@ -8,6 +8,7 @@ import { Command } from 'commander';
 import { config } from 'dotenv';
 import { optimizeCommand } from './commands/optimize.js';
 import { compareCommand } from './commands/compare.js';
+import { swarmCommand } from './commands/swarm.js';
 
 // Load environment variables
 config();
@@ -33,6 +34,20 @@ program
   .option('-v, --verbose', 'Verbose output', false)
   .option('-o, --output <file>', 'Save results to JSON file')
   .action(optimizeCommand);
+
+// Swarm command
+program
+  .command('swarm')
+  .description('Test multiple prompt variants in parallel (A/B testing)')
+  .argument('<prompt>', 'Base prompt to test')
+  .option('-m, --models <models...>', 'Models to test (use "free" for free models)', 'free')
+  .option('-j, --judges <judges...>', 'Judge models', ['openai/gpt-4o-mini'])
+  .option('--variants <file>', 'JSON file with prompt variants')
+  .option('--auto-variants <number>', 'Auto-generate N variants', '10')
+  .option('--parallel <number>', 'Max parallel executions', '5')
+  .option('-v, --verbose', 'Verbose output', false)
+  .option('-o, --output <file>', 'Save results to JSON file')
+  .action(swarmCommand);
 
 // Compare command
 program
@@ -63,6 +78,11 @@ program
     console.log('  - llama-3.3-70b       (Meta)');
     console.log('  - qwen-2.5-72b        (Alibaba)');
     console.log('  - gemini-2.0-pro      (Google)');
+    console.log('\nFree Models (for Swarm):');
+    console.log('  - meta-llama/llama-3.3-70b-instruct');
+    console.log('  - qwen/qwen-2.5-72b-instruct');
+    console.log('  - google/gemma-2-27b-it');
+    console.log('  - mistralai/mistral-7b-instruct-v0.3');
     console.log('\nSee all models at: https://openrouter.ai/models\n');
   });
 
