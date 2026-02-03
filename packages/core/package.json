@@ -1,6 +1,6 @@
 {
   "name": "evoprompt-core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Core genetic algorithm engine for prompt evolution",
   "type": "module",
   "main": "./dist/index.js",
