@@ -12,11 +12,11 @@
     "evolutionary-algorithm",
     "prompt-optimization"
   ],
-  "author": "Your Name",
+  "author": "Rohit CVS",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/evoprompt"
+    "url": "https://github.com/CVSRohit/EvoPrompt"
   },
   "workspaces": [
     "packages/*"

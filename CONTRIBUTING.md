@@ -6,7 +6,7 @@ Thank you for considering contributing to EvoPrompt! 🎉
 
 ### 1. 🐛 Report Bugs
 
-Found a bug? [Open an issue](https://github.com/yourusername/evoprompt/issues/new) with:
+Found a bug? [Open an issue](https://github.com/CVSRohit/EvoPrompt/issues/new) with:
 - Clear title and description
 - Steps to reproduce
 - Expected vs actual behavior
@@ -14,7 +14,7 @@ Found a bug? [Open an issue](https://github.com/yourusername/evoprompt/issues/ne
 
 ### 2. 💡 Suggest Features
 
-Have an idea? [Start a discussion](https://github.com/yourusername/evoprompt/discussions) describing:
+Have an idea? [Start a discussion](https://github.com/CVSRohit/EvoPrompt/discussions) describing:
 - The problem you're trying to solve
 - Your proposed solution
 - Any alternative solutions you've considered
@@ -62,7 +62,7 @@ Help improve:
 
 ```bash
 # Clone the repo
-git clone https://github.com/yourusername/evoprompt.git
+git clone https://github.com/CVSRohit/EvoPrompt.git
 cd evoprompt
 
 # Install dependencies
@@ -81,7 +81,7 @@ Be respectful and inclusive. We're all here to learn and improve.
 
 ## Questions?
 
-Open a [discussion](https://github.com/yourusername/evoprompt/discussions) or reach out via [issues](https://github.com/yourusername/evoprompt/issues).
+Open a [discussion](https://github.com/CVSRohit/EvoPrompt/discussions) or reach out via [issues](https://github.com/CVSRohit/EvoPrompt/issues).
 
 ---
 

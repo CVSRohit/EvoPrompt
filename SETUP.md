@@ -14,7 +14,7 @@ Complete setup guide for building and developing EvoPrompt.
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/evoprompt.git
+git clone https://github.com/CVSRohit/EvoPrompt.git
 cd evoprompt
 ```
 
@@ -42,7 +42,7 @@ Create `.env` file:
 
 ```env
 OPENROUTER_API_KEY=your_api_key_here
-OPENROUTER_SITE_URL=https://github.com/yourusername/evoprompt
+OPENROUTER_SITE_URL=https://github.com/CVSRohit/EvoPrompt
 OPENROUTER_APP_NAME=evoprompt
 ```
 
@@ -337,8 +337,8 @@ Keep these sections up-to-date:
 
 - 📖 [README](README.md)
 - 🚀 [Quick Start](QUICKSTART.md)
-- 💬 [Discussions](https://github.com/yourusername/evoprompt/discussions)
-- 🐛 [Issues](https://github.com/yourusername/evoprompt/issues)
+- 💬 [Discussions](https://github.com/CVSRohit/EvoPrompt/discussions)
+- 🐛 [Issues](https://github.com/CVSRohit/EvoPrompt/issues)
 
 ---
 

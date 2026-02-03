@@ -79,7 +79,7 @@ npm install evoprompt
 ### From Source
 
 ```bash
-git clone https://github.com/yourusername/evoprompt.git
+git clone https://github.com/CVSRohit/EvoPrompt.git
 cd evoprompt
 npm install
 npm run build
@@ -459,7 +459,7 @@ MIT License - see [LICENSE](LICENSE) for details.
 
 ## 📮 Contact
 
-- **GitHub Issues**: [Report bugs or request features](https://github.com/yourusername/evoprompt/issues)
+- **GitHub Issues**: [Report bugs or request features](https://github.com/CVSRohit/EvoPrompt/issues)
 - **Twitter**: [@yourusername](https://twitter.com/yourusername)
 - **Email**: your.email@example.com
 

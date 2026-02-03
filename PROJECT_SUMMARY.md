@@ -143,7 +143,7 @@ export OPENROUTER_API_KEY=your_key
 evoprompt optimize \"Explain quantum computing\"
 \`\`\`
 
-See [README](https://github.com/yourusername/evoprompt#readme) for full documentation.
+See [README](https://github.com/CVSRohit/EvoPrompt#readme) for full documentation.
 "
 ```
 
@@ -213,7 +213,7 @@ Links: [insert paper links]
 
 8/ It's FREE and open source!
 
-⭐ Star on GitHub: https://github.com/yourusername/evoprompt
+⭐ Star on GitHub: https://github.com/CVSRohit/EvoPrompt
 📖 Docs: [link]
 💬 Try it now: `npx evoprompt optimize "test"`
 
