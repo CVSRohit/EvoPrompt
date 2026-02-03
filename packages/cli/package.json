@@ -1,0 +1,33 @@
+{
+  "name": "evoprompt",
+  "version": "1.0.0",
+  "description": "CLI tool for evolving prompts using genetic algorithms",
+  "type": "module",
+  "bin": {
+    "evoprompt": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "llm",
+    "prompt",
+    "cli",
+    "optimization",
+    "genetic-algorithm"
+  ],
+  "dependencies": {
+    "@evoprompt/core": "file:../core",
+    "commander": "^12.0.0",
+    "ora": "^8.0.1",
+    "chalk": "^5.3.0",
+    "cli-table3": "^0.6.3",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "typescript": "^5.3.3"
+  }
+}
