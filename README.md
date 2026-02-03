@@ -64,25 +64,26 @@ Optimized Prompt (up to 25% better)
 
 ## 📦 Installation
 
-### NPM (Global CLI)
+> **Note:** npm package publishing in progress. For now, install from source.
 
-```bash
-npm install -g evoprompt
-```
-
-### NPM (Project Library)
-
-```bash
-npm install evoprompt
-```
-
-### From Source
+### From Source (Recommended)
 
 ```bash
 git clone https://github.com/CVSRohit/EvoPrompt.git
-cd evoprompt
+cd EvoPrompt
 npm install
 npm run build
+
+# Link globally to use 'evoprompt' command
+cd packages/cli
+npm link
+```
+
+### NPM (Coming Soon)
+
+```bash
+# Will be available soon:
+npm install -g evoprompt
 ```
 
 ---
